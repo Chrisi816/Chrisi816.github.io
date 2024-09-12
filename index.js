@@ -57,6 +57,8 @@ function Translate(type) {
 			"Hallo, ich bin Christian Jedrzejczyk";
 		document.getElementById("devtext").innerHTML =
 			"Web-/Software-Entwickler";
+		txt =
+			"Ich konzentriere mich darauf, komplexe Benutzererfahrungen durch ethisches Design zu vereinfachen und Lösungen zu entwickeln, die für Millionen von Menschen sinnvolle Verbindungen schaffen.";
 		document.getElementById("textmeinziel").innerHTML =
 			"Ich konzentriere mich darauf, komplexe Benutzererfahrungen durch ethisches Design zu vereinfachen und Lösungen zu entwickeln, die für Millionen von Menschen sinnvolle Verbindungen schaffen.";
 
@@ -105,6 +107,8 @@ function Translate(type) {
 			"Hello, I'm Christian Jedrzejczyk";
 		document.getElementById("devtext").innerHTML =
 			"Web / Software Developer";
+		txt =
+			"I focus on simplifying complex user experiences through ethical design and developing solutions that create meaningful connections for millions of people.";
 		document.getElementById("textmeinziel").innerHTML =
 			"I focus on simplifying complex user experiences through ethical design and developing solutions that create meaningful connections for millions of people.";
 

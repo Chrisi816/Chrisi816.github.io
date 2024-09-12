@@ -38,6 +38,7 @@
 body {
 	background: var(--bg-color);
 	color: var(--text-color);
+	animation: fadein 1s linear;
 }
 header {
 	position: fixed;
@@ -139,7 +140,9 @@ span {
 	z-index: 1;
 	opacity: 1%;
 }
-
+.imgnoise2 {
+	display: none;
+}
 ::-webkit-scrollbar {
 	width: 0.3vw;
 	background-color: #04080900;
@@ -386,6 +389,14 @@ span {
 		left: 1.5vw;
 	}
 }
+@keyframes fadein {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 .aboutmetexttext3 {
 	position: absolute;
 	left: 0vw;
@@ -413,7 +424,7 @@ span {
 	position: absolute;
 	height: 50.1vh;
 	width: 59.6vw;
-	left: 21vw;
+	left: 19.9vw;
 	top: 124vh;
 	overflow-y: hidden;
 	overflow-x: scroll;
@@ -499,10 +510,9 @@ span {
 .container-coding {
 	position: absolute;
 	width: 11.1vw;
-	height: 2vh;
+	height: 2.65vh;
 	top: 32.9vh;
 	left: 1.25vw;
-	height: 2.7vh;
 
 	background: #9914c140;
 	border-radius: 0.2vw;
@@ -785,14 +795,16 @@ span {
 	.feedback-container {
 		position: relative;
 		width: 200px;
-		height: 140px;
+		height: 135px;
 		left: 10px;
-		top: 5px;
+		top: 11px;
+
 		flex: 0 0 auto;
 		display: inline-block;
 		margin-left: 10px;
 		border-radius: 10px;
 		background-color: rgb(20, 20, 20);
+
 		animation: move 40s linear infinite;
 	}
 	.textsaid {
@@ -826,7 +838,7 @@ span {
 	}
 	.button-resume {
 		position: absolute;
-		width: 270px;
+		width: 260px;
 		height: 40px;
 		color: #9914c186;
 		border-radius: 10px;
@@ -856,7 +868,7 @@ span {
 		position: absolute;
 		width: 25px;
 		top: 6px;
-		left: 55px;
+		left: 45px;
 	}
 	.aboutmetext {
 		position: absolute;
@@ -883,7 +895,7 @@ span {
 	.githublogo {
 		position: absolute;
 		width: 30px;
-		left: 320px;
+		left: 310px;
 		cursor: pointer;
 		top: 304px;
 		z-index: 100;
@@ -980,12 +992,12 @@ span {
 	.opensvg {
 		position: absolute;
 		width: 20px;
-		top: 9px;
+		top: 8px;
 		left: 20px;
 	}
 	.porjectname {
 		position: absolute;
-		top: 180px;
+		top: 181px;
 		width: 100%;
 		text-align: center;
 		font-size: 20px;
@@ -1020,7 +1032,7 @@ span {
 	.codingelment {
 		position: absolute;
 		width: 100%;
-		top: 0.48vh;
+		top: 4.5px;
 		width: 100%;
 		text-align: center;
 		font-size: 12px;
@@ -1078,8 +1090,17 @@ span {
 	.footer {
 		position: absolute;
 		width: 100%;
-		top: 1640px;
-		height: 8vh;
+		top: 1630px;
+		height: 5.7vh;
 		background-color: rgba(22, 22, 23, 255);
+	}
+	.imgnoise2 {
+		position: absolute;
+		top: 810px;
+		user-select: none;
+		height: 80%;
+		z-index: 1;
+		opacity: 1%;
+		display: block;
 	}
 }
