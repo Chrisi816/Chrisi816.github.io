@@ -1121,6 +1121,7 @@ span {
 		user-select: none;
 		height: 80%;
 		z-index: 1;
+		width: 100%;
 		opacity: 1%;
 		display: block;
 	}
