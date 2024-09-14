@@ -69,9 +69,9 @@ function Translate(type) {
 		document.getElementById("infotextfacts").innerHTML =
 			"Hallo, ich bin Christian Jedrzejczyk, ein 17-jähriger Web- und Softwareentwickler aus der Nähe von Dortmund. Ich habe Erfahrung in verschiedenen Technologien, darunter:";
 		document.getElementById("textskills").innerHTML =
-			"- Frontend: HTML, CSS<br> - Backend: Javascript, Node.js, Jquary, lua<br> - Software: C#, Java<br> - Datenbanken: MongoDB, MySQL<br>";
+			"- Frontend: HTML, CSS<br> - Backend: JavaScript + (Node.js, jQuery) lua<br> - Software: C#, Java<br> - Datenbanken: MongoDB, MySQL<br>";
 		document.getElementById("infotextfacts2").innerHTML =
-			"Ich biete Dienstleistungen in den Bereichen Frontend-Entwicklung, Backend-Entwicklung und Full Stack an Entwicklung, App Entwicklung, Responsive Design, Fehlerbehebung, Datenbankverwaltung ... </br> </br> Seit ich meine Reise begonnen habe, habe ich mit über 500 Kunden zusammengearbeitet, die mit meiner Arbeit zufrieden waren, und das alles schon in so jungen Jahren. Ich bin hoch motiviert, so viele Projekte wie möglich zu üb ernehmen, von der Fehlerbeseitigung bis zur Programmierung kompletter neuer Anwendungen </br> </br> Deshalb bin ich die perfekte Person für Ihr nächstes Projekt!";
+			"Ich biete Dienstleistungen in den Bereichen Frontend-Entwicklung, Backend-Entwicklung und Full Stack an Entwicklung, Responsive Design, Fehlerbehebung, Datenbankverwaltung ... an </br> </br> Seit ich meine Reise begonnen habe, habe ich mit über 500 Kunden zusammengearbeitet, die mit meiner Arbeit zufrieden waren, und das alles schon in so jungen Jahren. Ich bin hoch motiviert, so viele Projekte wie möglich zu übernehmen, von der Fehlerbeseitigung bis zur Programmierung kompletter neuer Anwendungen </br> </br> Deshalb bin ich die perfekte Person für Ihr nächstes Projekt!";
 
 		document.getElementById("aboutmetexttext3").innerHTML =
 			"Meine Projekte";
@@ -119,9 +119,9 @@ function Translate(type) {
 		document.getElementById("infotextfacts").innerHTML =
 			"Hello, I'm Christian Jedrzejczyk, a 17-year-old web and software developer from near Dortmund. I have experience in various technologies, including:";
 		document.getElementById("textskills").innerHTML =
-			"- Frontend: HTML, CSS<br> - Backend: JavaScript, Node.js, jQuery, Lua<br> - Software: C#, Java<br> - Databases: MongoDB, MySQL<br>";
+			"- Frontend: HTML, CSS<br> - Backend: JavaScript + (Node.js, jQuery) Lua<br> - Software: C#, Java<br> - Databases: MongoDB, MySQL<br>";
 		document.getElementById("infotextfacts2").innerHTML =
-			"I offer services in frontend development, backend development, full-stack development, app development, responsive design, debugging, and database management ... </br> </br> Since I started my journey, I've worked with over 500 clients who were satisfied with my work, all at such a young age. I am highly motivated to take on as many projects as possible, from bug fixes to programming complete new applications. </br> </br> That's why I am the perfect person for your next project!";
+			"I offer services in frontend development, backend development, full-stack development, responsive design, debugging, and database management ... </br> </br> Since I started my journey, I've worked with over 500 clients who were satisfied with my work, all at such a young age. I am highly motivated to take on as many projects as possible, from bug fixes to programming complete new applications. </br> </br> That's why I am the perfect person for your next project!";
 
 		document.getElementById("aboutmetexttext3").innerHTML = "My Projects";
 		document.getElementById("description").innerHTML =
