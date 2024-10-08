@@ -71,7 +71,7 @@ function Translate(type) {
 		document.getElementById("textskills").innerHTML =
 			"- Frontend: HTML, CSS<br> - Backend: JavaScript + (Node.js, jQuery), Lua<br> - Software: C#, Java<br> - Datenbanken: MongoDB, MySQL<br>";
 		document.getElementById("infotextfacts2").innerHTML =
-			"Ich biete Dienstleistungen in den Bereichen Frontend-Entwicklung, Backend-Entwicklung und Full Stack an Entwicklung, Responsive Design, Fehlerbehebung, Datenbankverwaltung ... an </br> </br> Seit ich meine Reise begonnen habe, habe ich mit über 500 Kunden zusammengearbeitet, die mit meiner Arbeit zufrieden waren, und das alles schon in so jungen Jahren. Ich bin hoch motiviert, so viele Projekte wie möglich zu übernehmen, von der Fehlerbeseitigung bis zur Programmierung kompletter neuer Anwendungen </br> </br> Deshalb bin ich die perfekte Person für Ihr nächstes Projekt!";
+			"Ich biete Dienstleistungen in den Bereichen Frontend-Entwicklung, Backend-Entwicklung und Full Stack an Entwicklung, Responsive Design, Fehlerbehebung, Datenbankverwaltung ... an </br> </br> Seit ich meine Reise begonnen habe, habe ich mit über 600 Kunden zusammengearbeitet, die mit meiner Arbeit zufrieden waren, und das alles schon in so jungen Jahren. Ich bin hoch motiviert, so viele Projekte wie möglich zu übernehmen, von der Fehlerbeseitigung bis zur Programmierung kompletter neuer Anwendungen </br> </br> Deshalb bin ich die perfekte Person für Ihr nächstes Projekt!";
 
 		document.getElementById("aboutmetexttext3").innerHTML =
 			"Meine Projekte";
@@ -81,7 +81,7 @@ function Translate(type) {
 			"Gerne sende ich Ihnen auf Anfrage beliebige Codebeispiele zu, wenn der Kunde damit einverstanden ist";
 
 		document.getElementById("prjectinfos").innerHTML =
-			"Ein Entwicklungsdienstleister mit Spezialisierung auf Websites, Skripterstellung und Anwendungen. </br></br> - Über 500 Kunden </br> - Über 70 Sonderanfertigungen </br> - 150.000 Benutzer vertrauen darauf </br> 3 Jahre Erfahrung </br> – Über 12 Produkte";
+			"Ein Entwicklungsdienstleister mit Spezialisierung auf Websites, Skripterstellung und Anwendungen. </br></br> - Über 600 Kunden </br> - Über 70 Sonderanfertigungen </br> - 150.000 Benutzer vertrauen darauf </br> 3 Jahre Erfahrung </br> – Über 12 Produkte";
 		document.getElementById("prjectinfos2").innerHTML =
 			"Kompletter FiveM Server, über 100 Ressourcen. Client sowie Serverseitig alles selbst gemacht. Sowie Designt und Frontend</br></br> - Entwicklungsdauer: 1 Jahr </br>";
 		document.getElementById("prjectinfos3").innerHTML =
@@ -121,7 +121,7 @@ function Translate(type) {
 		document.getElementById("textskills").innerHTML =
 			"- Frontend: HTML, CSS<br> - Backend: JavaScript + (Node.js, jQuery), Lua<br> - Software: C#, Java<br> - Databases: MongoDB, MySQL<br>";
 		document.getElementById("infotextfacts2").innerHTML =
-			"I offer services in frontend development, backend development, full-stack development, responsive design, debugging, and database management ... </br> </br> Since I started my journey, I've worked with over 500 clients who were satisfied with my work, all at such a young age. I am highly motivated to take on as many projects as possible, from bug fixes to programming complete new applications. </br> </br> That's why I am the perfect person for your next project!";
+			"I offer services in frontend development, backend development, full-stack development, responsive design, debugging, and database management ... </br> </br> Since I started my journey, I've worked with over 600 clients who were satisfied with my work, all at such a young age. I am highly motivated to take on as many projects as possible, from bug fixes to programming complete new applications. </br> </br> That's why I am the perfect person for your next project!";
 
 		document.getElementById("aboutmetexttext3").innerHTML = "My Projects";
 		document.getElementById("description").innerHTML =
@@ -130,7 +130,7 @@ function Translate(type) {
 			"I am happy to send any code samples upon request, if the client agrees.";
 
 		document.getElementById("prjectinfos").innerHTML =
-			"A development service provider specializing in websites, scripting, and applications. </br></br> - Over 500 customers </br> - Over 70 custom projects </br> - Trusted by 150,000 users </br> 3 years of experience </br> – Over 12 products";
+			"A development service provider specializing in websites, scripting, and applications. </br></br> - Over 600 customers </br> - Over 70 custom projects </br> - Trusted by 150,000 users </br> 3 years of experience </br> – Over 12 products";
 		document.getElementById("prjectinfos2").innerHTML =
 			"Complete FiveM server, over 100 resources. Everything made on both client and server sides, including design and frontend</br></br> - Development time: 1 year </br>";
 		document.getElementById("prjectinfos3").innerHTML =
