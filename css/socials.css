@@ -220,6 +220,37 @@ body {
 	background-color: #d90027;
 	filter: blur(19vw);
 }
+.footer {
+	position: absolute;
+	width: 100%;
+	top: 90.7vh;
+	height: 8vh;
+}
+.navlistfooter {
+	width: 100%;
+
+	align-items: center;
+	text-align: center;
+	padding-top: 3.6vh;
+}
+
+.navlistfooter a {
+	color: var(--second-color);
+	font-size: 30px;
+	font-weight: 500;
+	font-size: 0.7vw;
+	font-family: "SoraRegular";
+	cursor: pointer;
+	margin: 0 1vw;
+	transition: all 0.45s ease;
+}
+.navlistfooter a:hover {
+	transform: 1s all;
+	border-bottom: 1px solid white;
+}
+.navlistfooter a.active {
+	color: var(--main-color);
+}
 @media screen and (max-width: 600px) {
 	.topimage {
 		position: absolute;
@@ -241,13 +272,24 @@ body {
 		height: 100%;
 		position: absolute;
 	}
+	.pearlback {
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		object-fit: cover;
+		user-select: none;
+		z-index: -1;
+		opacity: 1%;
+		left: 0vw;
+	}
+
 	.imageofplayer {
 		position: absolute;
 		left: 50%;
 		z-index: 3;
 		top: 9.3vh;
 		width: 25vw;
-		height: 13.5vh;
+		height: 11.5vh;
 		transform: translate(-50%);
 		border-radius: 200%;
 		overflow: hidden;
@@ -268,7 +310,7 @@ body {
 		width: 80vw;
 		left: 50%;
 		height: 5vh;
-		top: 19vh;
+		top: 16.5vh;
 		justify-content: center;
 		align-items: center;
 		transform: translate(-50%);
@@ -276,10 +318,10 @@ body {
 
 	.button-social {
 		position: relative;
-		left: 5.4vw;
+		left: 0.1vw;
 		display: inline-block;
 		margin-left: 2vw;
-		width: 10vw;
+		width: 12vw;
 		border-radius: 0.8vw;
 		background-color: #161616;
 		border: 1px solid rgba(128, 128, 128, 0.07);
@@ -293,7 +335,7 @@ body {
 	.socialimg {
 		position: absolute;
 		left: 0vw;
-		width: 4.7vw;
+		width: 5.5vw;
 		left: 50%;
 		top: 50%;
 		transform: translate(-50%, -50%);
@@ -303,7 +345,7 @@ body {
 		color: #ebebeb;
 		width: 100%;
 		text-align: center;
-		top: 26.5vh;
+		top: 23.9vh;
 		font-size: 3.5vw;
 		font-weight: 700;
 		font-family: "NotoSansMedium";
@@ -311,7 +353,7 @@ body {
 	.detailtext {
 		position: absolute;
 		left: 50%;
-		top: 13vh;
+		top: 11.5vh;
 		transform: translate(-50%);
 		color: #9a9a9a;
 		width: 80vw;
@@ -325,7 +367,7 @@ body {
 		color: #ebebeb;
 		width: 100%;
 		text-align: center;
-		top: 7.5vh;
+		top: 6.5vh;
 		font-size: 5vw;
 		font-weight: 700;
 		font-family: "NotoSansMedium";
@@ -334,7 +376,7 @@ body {
 		position: absolute;
 		width: 80%;
 		left: 50%;
-		top: 32vh;
+		top: 28vh;
 		height: 50vh;
 		background-color: rgba(255, 0, 0, 0);
 		transform: translate(-50%);
@@ -362,14 +404,14 @@ body {
 		width: 100%;
 		text-align: center;
 		top: 2.2vh;
-		font-size: 2.6vw;
+		font-size: 3vw;
 		font-weight: 300;
 		font-family: "NotoSansMedium";
 	}
 
 	.smallerlogo {
 		position: absolute;
-		width: 8vw;
+		width: 9.8vw;
 		border-radius: 0.1vw;
 		left: 2vw;
 		top: 1.05vh;
@@ -379,5 +421,10 @@ body {
 		width: 100%;
 		height: 100%;
 		filter: blur(1vw);
+	}
+	.navlistfooter a {
+		font-size: 3vw;
+		color: white;
+		font-family: "NotoSansMedium";
 	}
 }
