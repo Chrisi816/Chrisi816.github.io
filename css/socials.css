@@ -310,7 +310,7 @@ body {
 		width: 328px;
 		left: 50%;
 		height: 5vh;
-		top: 16.5vh;
+		top: 140px;
 		justify-content: center;
 		align-items: center;
 		transform: translate(-50%);
@@ -325,7 +325,7 @@ body {
 		border-radius: 0.8vw;
 		background-color: #161616;
 		border: 1px solid rgba(128, 128, 128, 0.07);
-		height: 5.5vh;
+		height: 46px;
 		cursor: pointer;
 	}
 	.button-social:hover {
@@ -404,7 +404,7 @@ body {
 		width: 100%;
 		text-align: center;
 		top: 2.2vh;
-		font-size: 3vw;
+		font-size: 11px;
 		font-weight: 300;
 		font-family: "NotoSansMedium";
 	}
