@@ -288,8 +288,8 @@ body {
 		left: 50%;
 		z-index: 3;
 		top: 9.3vh;
-		width: 25vw;
-		height: 11.5vh;
+		width: 100px;
+		height: 100px;
 		transform: translate(-50%);
 		border-radius: 200%;
 		overflow: hidden;
@@ -300,14 +300,14 @@ body {
 	}
 	.displayinformation {
 		position: absolute;
-		top: 16.5vh;
+		top: 135px;
 		width: 100%;
 		background-color: rgba(255, 0, 0, 0);
 		height: 30vh;
 	}
 	.buttonsocial {
 		position: absolute;
-		width: 80vw;
+		width: 84vw;
 		left: 50%;
 		height: 5vh;
 		top: 16.5vh;
@@ -318,10 +318,10 @@ body {
 
 	.button-social {
 		position: relative;
-		left: 0.1vw;
+		left: -4px;
 		display: inline-block;
-		margin-left: 2vw;
-		width: 12vw;
+		margin-left: 3.4vw;
+		width: 47px;
 		border-radius: 0.8vw;
 		background-color: #161616;
 		border: 1px solid rgba(128, 128, 128, 0.07);
@@ -345,7 +345,7 @@ body {
 		color: #ebebeb;
 		width: 100%;
 		text-align: center;
-		top: 23.9vh;
+		top: 201.5px;
 		font-size: 3.5vw;
 		font-weight: 700;
 		font-family: "NotoSansMedium";
@@ -353,7 +353,7 @@ body {
 	.detailtext {
 		position: absolute;
 		left: 50%;
-		top: 11.5vh;
+		top: 95px;
 		transform: translate(-50%);
 		color: #9a9a9a;
 		width: 80vw;
@@ -411,7 +411,7 @@ body {
 
 	.smallerlogo {
 		position: absolute;
-		width: 9.8vw;
+		width: 38px;
 		border-radius: 0.1vw;
 		left: 2vw;
 		top: 1.05vh;
