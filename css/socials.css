@@ -307,7 +307,7 @@ body {
 	}
 	.buttonsocial {
 		position: absolute;
-		width: 84vw;
+		width: 328px;
 		left: 50%;
 		height: 5vh;
 		top: 16.5vh;
@@ -345,7 +345,7 @@ body {
 		color: #ebebeb;
 		width: 100%;
 		text-align: center;
-		top: 201.5px;
+		top: 202.5px;
 		font-size: 3.5vw;
 		font-weight: 700;
 		font-family: "NotoSansMedium";
@@ -376,7 +376,7 @@ body {
 		position: absolute;
 		width: 80%;
 		left: 50%;
-		top: 28vh;
+		top: 240px;
 		height: 50vh;
 		background-color: rgba(255, 0, 0, 0);
 		transform: translate(-50%);
