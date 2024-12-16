@@ -68,8 +68,7 @@ function Translate(type) {
 			"Hallo, ich bin Christian Jedrzejczyk";
 		document.getElementById("devtext").innerHTML =
 			"Web-/Software-Entwickler";
-		txt =
-			"Ich konzentriere mich darauf, komplexe Benutzererfahrungen durch ethisches Design zu vereinfachen und Lösungen zu entwickeln, die für Millionen von Menschen sinnvolle Verbindungen schaffen.";
+
 		document.getElementById("textmeinziel").innerHTML =
 			"Ich konzentriere mich darauf, komplexe Benutzererfahrungen durch ethisches Design zu vereinfachen und Lösungen zu entwickeln, die für Millionen von Menschen sinnvolle Verbindungen schaffen.";
 
@@ -92,7 +91,7 @@ function Translate(type) {
 			"Gerne sende ich Ihnen auf Anfrage beliebige Codebeispiele zu, wenn der Kunde damit einverstanden ist";
 
 		document.getElementById("prjectinfos").innerHTML =
-			"Ein Entwicklungsdienstleister mit Spezialisierung auf Websites, Skripterstellung und Anwendungen. </br></br> - Über 800 Kunden </br> - Über 80 Sonderanfertigungen </br> - 250.000 Benutzer vertrauen darauf </br> 3 Jahre Erfahrung </br> – Über 20 Produkte";
+			"Ein Entwicklungsdienstleister mit Spezialisierung auf Websites, Skripterstellung und Anwendungen. </br></br> - Über 1.1k Kunden </br> - Über 80 Sonderanfertigungen </br> - 350.000 Benutzer vertrauen darauf </br> 4 Jahre Erfahrung </br> – Über 20 Produkte";
 		document.getElementById("prjectinfos2").innerHTML =
 			"Kompletter FiveM Server, über 100 Ressourcen. Client sowie Serverseitig alles selbst gemacht. Sowie Designt und Frontend</br></br> - Entwicklungsdauer: 1 Jahr </br>";
 		document.getElementById("prjectinfos3").innerHTML =
@@ -118,8 +117,7 @@ function Translate(type) {
 			"Hello, I'm Christian Jedrzejczyk";
 		document.getElementById("devtext").innerHTML =
 			"Web / Software Developer";
-		txt =
-			"I focus on simplifying complex user experiences through ethical design and developing solutions that create meaningful connections for millions of people.";
+
 		document.getElementById("textmeinziel").innerHTML =
 			"I focus on simplifying complex user experiences through ethical design and developing solutions that create meaningful connections for millions of people.";
 
@@ -139,9 +137,8 @@ function Translate(type) {
 			"Sorted from the most to the least effort";
 		document.getElementById("description2").innerHTML =
 			"I am happy to send any code samples upon request, if the client agrees.";
-
 		document.getElementById("prjectinfos").innerHTML =
-			"A development service provider specializing in websites, scripting, and applications. </br></br> - Over 800 customers </br> - Over 80 custom projects </br> - Trusted by 250,000 users </br> 3 years of experience </br> – Over 20 products";
+			"A development service provider specializing in websites, scripting, and applications. </br></br> - Over 1.1k customers </br> - Over 80 custom projects </br> - Trusted by 350,000 users </br> 4 years of experience </br> – Over 20 products";
 		document.getElementById("prjectinfos2").innerHTML =
 			"Complete FiveM server, over 100 resources. Everything made on both client and server sides, including design and frontend</br></br> - Development time: 1 year </br>";
 		document.getElementById("prjectinfos3").innerHTML =
