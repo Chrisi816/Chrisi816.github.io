@@ -4,117 +4,166 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
     <link rel="stylesheet" href="css/socials.css" />
     <title>Socials for Chrisi</title>
     <link rel="icon" href="src/img/coding.png">
 </head>
 
 <body>
-    <div class="site">
-        <div class="topimage">
-            <img src="src/img/IMG_20241120_212337.jpg" class="image1" alt="">
-            <img src="src/img/Noise.png" class="image2" alt="">
-        </div>
-        <div class="imageofplayer">
-            <img src="src/img/81706150.jpeg" alt="">
-        </div>
-        <img src="src/img/perl.png" class="pearlback" alt="">
+    <img src="src/img/perl.png" class="pearlback" alt="">
+    <div class="leftredfade"></div>
+    <div class="rightredfade"></div>
 
-        <div class="displayinformation">
-            <h1 class="nameofplayer">Christian Jedrzejczyk</h1>
-            <h1 class="detailtext">Professional developer from Germany, specialised in webspace to create something, for
-                everyone. Owns one of the largest scripting services in the DACH region.
-            </h1>
-            <div class="buttonsocial">
-                <a href="https://github.com/Chrisi816">
-                    <div class="button-social">
-                        <img src="src/img/github-mark-white.png" class="socialimg" alt="">
-                    </div>
-                </a>
-                <a href="www.linkedin.com/in/christian-jedrzejczyk-b53994347">
-                    <div class="button-social">
-                        <img src="src/icons/InBug-White.png" class="socialimg" alt="">
-                    </div>
-                </a>
-                <a href="https://www.instagram.com/chrisi.jyk/">
-                    <div class="button-social">
-                        <img src="src/img/Instagram_Glyph_Gradient.png" class="socialimg" alt="">
-                    </div>
-                </a>
-                <a href="https://www.tiktok.com/@j.chrisi">
-                    <div class="button-social">
-                        <img src="src/img/TikTok_Icon_Black_Circle.png" class="socialimg" alt="">
-                    </div>
-                </a>
-                <a href="https://chrisi816.github.io">
-                    <div class="button-social">
-                        <img src="src/img/netz.png" class="socialimg" alt="">
-                    </div>
-                </a>
-                <a href="https://discordapp.com/users/816076557336313856">
-                    <div class="button-social">
-                        <img src="src/img/discord.png" class="socialimg" alt="">
-                    </div>
-                </a>
+    <main class="site">
+        <section class="hero">
+            <div class="topimage">
+                <img src="src/img/IMG_20241120_212337.jpg" class="image1" alt="Banner image">
+                <img src="src/img/Noise.png" class="image2" alt="">
             </div>
-            <h1 class="mysocial">My Projects</h1>
+
+            <div class="profile-card">
+                <div class="imageofplayer">
+                    <img src="src/img/81706150.jpeg" alt="Christian Jedrzejczyk">
+                </div>
+
+                <h1 class="nameofplayer">Christian Jedrzejczyk</h1>
+                <p class="detailtext">
+                    Professional developer from Germany, specialised in webspace to create something for everyone.
+                    Owns one of the largest scripting services in the DACH region.
+                </p>
+
+                <div class="badges" aria-label="Profile highlights">
+                    <span>Germany</span>
+                    <span>3k+ Customers</span>
+                    <span>5k+ Members</span>
+                    <span>Developer</span>
+                </div>
+
+                <div class="actions">
+                    <a class="primary-cta" href="https://s-service.tebex.io">Work with me</a>
+                    <a class="secondary-cta" href="https://discord.gg/s-service">Join Discord</a>
+                </div>
+
+                <div class="buttonsocial" aria-label="Social links">
+                    <a class="button-social" data-label="GitHub" href="https://github.com/Chrisi816" target="_blank"
+                        rel="noopener noreferrer">
+                        <img src="src/img/github-mark-white.png" class="socialimg" alt="GitHub">
+                    </a>
+                    <a class="button-social" data-label="LinkedIn"
+                        href="https://www.linkedin.com/in/christian-jedrzejczyk-b53994347" target="_blank"
+                        rel="noopener noreferrer">
+                        <img src="src/icons/InBug-White.png" class="socialimg" alt="LinkedIn">
+                    </a>
+                    <a class="button-social" data-label="Instagram" href="https://www.instagram.com/chrisi.jyk/"
+                        target="_blank" rel="noopener noreferrer">
+                        <img src="src/img/Instagram_Glyph_Gradient.png" class="socialimg" alt="Instagram">
+                    </a>
+                    <a class="button-social" data-label="TikTok" href="https://www.tiktok.com/@j.chrisi" target="_blank"
+                        rel="noopener noreferrer">
+                        <img src="src/img/TikTok_Icon_Black_Circle.png" class="socialimg" alt="TikTok">
+                    </a>
+                    <a class="button-social" data-label="Website" href="https://chrisi816.github.io" target="_blank"
+                        rel="noopener noreferrer">
+                        <img src="src/img/netz.png" class="socialimg" alt="Website">
+                    </a>
+                    <a class="button-social" data-label="Discord" href="https://discordapp.com/users/816076557336313856"
+                        target="_blank" rel="noopener noreferrer">
+                        <img src="src/img/discord.png" class="socialimg" alt="Discord">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects-section">
+            <div class="section-heading">
+                <p>Selected work</p>
+                <h2>My Projects</h2>
+            </div>
+
             <div class="container-projects">
-                <a href="https://s-service.tebex.io">
-                    <div class="container-project">
-                        <img src="src/img/Server_Banner.gif" class="banner" alt="">
-                        <img src="src/img/Logo_Small.gif" class="smallerlogo" alt="">
-                        <h1 class="textcenter">S-Service Website (+ 1.9k Customers)</h1>
-                    </div>
+                <a class="container-project" href="https://s-service.tebex.io" target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="src/img/Server_Banner.gif" class="banner" alt="">
+                    <img src="src/img/Logo_Small.gif" class="smallerlogo" alt="S-Service">
+                    <span class="project-content">
+                        <strong>S-Service Website</strong>
+                        <small>1.9k+ Customers</small>
+                    </span>
+                    <span class="arrow">→</span>
                 </a>
-                <a href="https://s-service.tebex.io">
-                    <div class="container-project">
-                        <img src="src/img/090c86df-5e6a-4783-b4a8-1eef77dccfb2.png" class="banner" alt="">
-                        <img src="src/img/090c86df-5e6a-4783-b4a8-1eef77dccfb2.png" class="smallerlogo" alt="">
-                        <h1 class="textcenter">C-Service Discord </h1>
-                    </div>
+
+                <a class="container-project" href="https://s-service.tebex.io" target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="src/img/090c86df-5e6a-4783-b4a8-1eef77dccfb2.png" class="banner" alt="">
+                    <img src="src/img/090c86df-5e6a-4783-b4a8-1eef77dccfb2.png" class="smallerlogo" alt="C-Service">
+                    <span class="project-content">
+                        <strong>C-Service Discord</strong>
+                        <small>Community project</small>
+                    </span>
+                    <span class="arrow">→</span>
                 </a>
-                <a href="https://s-service.tebex.io">
-                    <div class="container-project">
-                        <img src="src/img/Server_Banner.gif" class="banner" alt="">
-                        <img src="src/img/Logo_Small.gif" class="smallerlogo" alt="">
-                        <h1 class="textcenter">Soon</h1>
-                    </div>
+
+                <a class="container-project" href="https://discord.gg/s-service" target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="src/img/Server_Banner.gif" class="banner" alt="">
+                    <img src="src/img/Logo_Small.gif" class="smallerlogo" alt="S-Service Discord">
+                    <span class="project-content">
+                        <strong>S-Service Discord</strong>
+                        <small>3k+ Members</small>
+                    </span>
+                    <span class="arrow">→</span>
                 </a>
-                <a href="https://discord.gg/s-service">
-                    <div class="container-project">
-                        <img src="src/img/Server_Banner.gif" class="banner" alt="">
-                        <img src="src/img/Logo_Small.gif" class="smallerlogo" alt="">
-                        <h1 class="textcenter">S-Service Discord (+ 3k Member)</h1>
-                    </div>
+
+                <a class="container-project" href="https://s-service.gitbook.io/s-service-documentations"
+                    target="_blank" rel="noopener noreferrer">
+                    <img src="src/img/Server_Banner.gif" class="banner" alt="">
+                    <img src="src/img/Logo_Small.gif" class="smallerlogo" alt="GitBook">
+                    <span class="project-content">
+                        <strong>S-Service GitBook</strong>
+                        <small>Documentation</small>
+                    </span>
+                    <span class="arrow">→</span>
                 </a>
-                <a href="https://s-service.gitbook.io/s-service-documentations">
-                    <div class="container-project">
-                        <img src="src/img/Server_Banner.gif" class="banner" alt="">
-                        <img src="src/img/Logo_Small.gif" class="smallerlogo" alt="">
-                        <h1 class="textcenter">S-Service GitBook</h1>
-                    </div>
+
+                <a class="container-project" href="https://chrisi816.github.io" target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="src/img/Server_Banner.gif" class="banner" alt="">
+                    <img src="src/img/81706150.jpeg" class="smallerlogo" alt="Portfolio">
+                    <span class="project-content">
+                        <strong>Portfolio</strong>
+                        <small>Personal website</small>
+                    </span>
+                    <span class="arrow">→</span>
                 </a>
-                <a href="https://chrisi816.github.io">
-                    <div class="container-project">
-                        <img src="src/img/Server_Banner.gif" class="banner" alt="">
-                        <img src="src/img/81706150.jpeg" class="smallerlogo" alt="">
-                        <h1 class="textcenter">Portfolio</h1>
-                    </div>
+
+                <a class="container-project" href="https://www.instagram.com/adoravia_/" target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="src/img/Server_Banner.gif" class="banner" alt="">
+                    <img src="src/img/81706150.jpeg" class="smallerlogo" alt="Adoravia">
+                    <span class="project-content">
+                        <strong>Adoravia</strong>
+                        <small>1M+ Views</small>
+                    </span>
+                    <span class="arrow">→</span>
                 </a>
-                <a href="https://www.instagram.com/adoravia_/">
-                    <div class="container-project">
-                        <img src="src/img/Server_Banner.gif" class="banner" alt="">
-                        <img src="src/img/81706150.jpeg" class="smallerlogo" alt="">
-                        <h1 class="textcenter">Adoravia (+ 1 Mio Views)</h1>
-                    </div>
+
+                <a class="container-project upcoming" href="https://s-service.tebex.io" target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="src/img/Server_Banner.gif" class="banner" alt="">
+                    <img src="src/img/Logo_Small.gif" class="smallerlogo" alt="Soon">
+                    <span class="project-content">
+                        <strong>Coming Soon</strong>
+                        <small>New project loading</small>
+                    </span>
+                    <span class="arrow">→</span>
                 </a>
             </div>
-        </div>
-    </div>
+        </section>
+    </main>
+
     <footer class="footer">
         <div class="navlistfooter">
-            <a style="user-select: none; border: none; cursor:default;">Copyright by @Chrisi 2024</a>
+            <span>Copyright by @Chrisi 2026</span>
         </div>
     </footer>
 </body>
