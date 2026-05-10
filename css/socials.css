@@ -157,8 +157,8 @@ body::before {
 }
 
 .image1 {
-  object-position: center;
-  transform: scale(1.02);
+  object-position: center 22%;
+  transform: scale(1);
 }
 
 .image2 {
