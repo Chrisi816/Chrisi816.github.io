@@ -1,510 +1,345 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="de">
 
 <head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<link rel="stylesheet" href="css/index.css" />
-	<title>Portfolio, made with love</title>
-	<link rel="icon" href="src/img/coding.png">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description"
+    content="Christian Jedrzejczyk – Web & Software Developer für Websites, Scripts, Apps und individuelle Full-Stack-Projekte." />
+  <meta name="theme-color" content="#100719" />
+  <title>Christian Jedrzejczyk · Web & Software Developer</title>
+  <link rel="icon" href="assets/img/logo.png" />
+  <link rel="preload" href="style.css" as="style" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="index.html" defer></script>
 </head>
 
 <body>
-	<div class="backgrounddesign">
-		<svg xmlns="http://www.w3.org/2000/svg" class="backgroundimg" viewBox="0 0 1920 805" fill="none">
-			<g filter="url(#filter0_f_7_28)">
-				<path
-					d="M1744.5 555C1850.44 597.094 1922.35 442.64 1942 383.086V0H-17.6124C-21.678 148.156 -27.3698 462.333 -17.6124 533.799C-5.41567 623.131 26.2784 582.462 133 600C239.722 617.538 243.434 581.746 340.5 510.5C437.566 439.254 392 450 473.5 383.086C558.194 313.549 597.5 296 653 270.5C698.593 249.552 815.906 247.718 898 247.718C975 247.718 1148.88 247.614 1229 296C1306 342.5 1348.21 363.348 1476 413.5C1608.5 465.5 1632.5 510.5 1744.5 555Z"
-					fill="url(#paint0_linear_7_28)" fill-opacity="0.7" />
-				<path
-					d="M1744.5 555C1850.44 597.094 1922.35 442.64 1942 383.086V0H-17.6124C-21.678 148.156 -27.3698 462.333 -17.6124 533.799C-5.41567 623.131 26.2784 582.462 133 600C239.722 617.538 243.434 581.746 340.5 510.5C437.566 439.254 392 450 473.5 383.086C558.194 313.549 597.5 296 653 270.5C698.593 249.552 815.906 247.718 898 247.718C975 247.718 1148.88 247.614 1229 296C1306 342.5 1348.21 363.348 1476 413.5C1608.5 465.5 1632.5 510.5 1744.5 555Z"
-					stroke="black" />
-			</g>
-			<defs>
-				<filter id="filter0_f_7_28" x="-223.5" y="-200.5" width="2366" height="1005.41"
-					filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-					<feFlood flood-opacity="0" result="BackgroundImageFix" />
-					<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-					<feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_7_28" />
-				</filter>
-				<linearGradient id="paint0_linear_7_28" x1="1986.5" y1="250" x2="21.5002" y2="250"
-					gradientUnits="userSpaceOnUse">
-					<stop stop-color="#5322B8" />
-					<stop offset="1" stop-color="#8B14B6" stop-opacity="0.7" />
-				</linearGradient>
-			</defs>
-		</svg>
-		<img src="src/img/perl.png" class="imgnoise" alt="">
-		<img src="src/img/perl.png" class="imgnoise2" alt="">
-	</div>
-	<header>
-		<img src="src/img/logo.png" class="logoimg" alt="">
-		<div class="navlist">
-			<a id="hometop">Home</a>
-			<a id="aboutme">About Me</a>
-			<a id="projectsbottom">Projects</a>
-			<a id="feedback">Feedback</a>
-			<a id="serverstatus" href="socials.html">Links</a>
-			<a id="serverstatus">Server Status</a>
-		</div>
-		<img src="src/icons/icons8-england-48.png" class="sprache" alt="">
-		<a href="mailto: jedchr08@gmail.com"><button class="contactmebutton" id="contactmebutton">Contact
-				me!</button></a>
-	</header>
-	<section class="serverstatus" style="display: none;">
-		<div class="imgbig">
-			<div class="lefttopglow"></div>
-			<div class="righttopglow"></div>
-			<img src="src/img/skyline.png" class="skylineimg" alt="">
-			<h1 class="textserverstatus">Server Monitoring</h1>
-			<h1 class="infoserverstatus">For my Projects</h1>
-			<h1 class="uptimetext">Uptime:</h1>
-			<h1 class="uptimetext2">99.99%</h1>
-		</div>
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
 
-		<div class="monitorinfo">
-			<h1 class="textservice">Service Name</h1>
-			<h1 class="textservice">Uptime</h1>
-			<h1 class="textservice">Last Incidend:</h1>
-		</div>
+  <header class="site-header" id="top">
+    <nav class="navbar" aria-label="Hauptnavigation">
+      <a class="brand" href="#home" aria-label="Zur Startseite">
+        <img src="assets/img/logo.png" alt="Christian Jedrzejczyk Logo" />
+      </a>
 
-		<div class="server-add-container">
-			<h1 class="servicetext">S-Service</h1>
-			<div class="barcontainer">
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-			</div>
-			<h1 class="lastincidend">10 Days ago</h1>
-		</div>
-		<div class="server-add-container">
-			<h1 class="servicetext">S-Service - Backend Service</h1>
-			<div class="barcontainer">
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-			</div>
-			<h1 class="lastincidend">13 Days ago</h1>
-		</div>
-		<div class="server-add-container">
-			<h1 class="servicetext">Noxans - Auth Service</h1>
-			<div class="barcontainer">
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-			</div>
-			<h1 class="lastincidend">2 Days ago</h1>
-		</div>
-		<div class="server-add-container">
-			<h1 class="servicetext">Azo Client - Auth Service</h1>
-			<div class="barcontainer">
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-				<div class="bar-status enable"></div>
-			</div>
-			<h1 class="lastincidend">5 Days ago</h1>
-		</div>
+      <button class="menu-toggle" type="button" aria-label="Menü öffnen" aria-expanded="false"
+        aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
 
-	</section>
-	<section class="home" id="home">
-		<h1 class="text-introduce" id="descriptionich">Hi, I am Christian Jedrzejczyk</h1>
-		<h1 class="developertext" id="devtext">Web / Software Developer</h1>
-		<h1 class="infotext" id="textmeinziel">My focus is on making complex user experiences simple through ethical
-			design, crafting solutions that build meaningful connections for millions.</h1>
-		<div class="imgcontainer">
-			<div class="lilaglow"></div>
-			<img src="src/img/coding.png" class="codingimg" alt="">
-		</div>
-		<div class="container-experiance">
-			<h1 class="jahreserfahrung">04</h1>
-			<h1 class="experianceyears" id="experianceyears">Years </br> of experiance</h1>
-		</div>
+      <div class="nav-links" id="nav-links">
+        <a href="#home" data-i18n="nav.home">Start</a>
+        <a href="#about" data-i18n="nav.about">Über mich</a>
+        <a href="#services" data-i18n="nav.services">Leistungen</a>
+        <a href="#projects" data-i18n="nav.projects">Projekte</a>
+        <a href="#reviews" data-i18n="nav.reviews">Rezensionen</a>
+        <button class="nav-link-button" type="button" data-open-status data-i18n="nav.status">Status</button>
+      </div>
 
-		<button class="button-resume" type="submit" onclick="window.open('lebenslauf_light.docx')">
-			<svg xmlns="http://www.w3.org/2000/svg" class="downloadsvg" viewBox="0 -960 960 960" fill="#9914c186">
-				<path
-					d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z" />
-			</svg>Download Resume</button>
+      <div class="nav-actions">
+        <button class="language-toggle" type="button" aria-label="Sprache wechseln" data-lang-toggle>
+          <img src="assets/icons/icons8-england-48.png" alt="English" data-lang-flag />
+        </button>
+        <a class="button button-small" href="mailto:jedchr08@gmail.com" data-i18n="nav.contact">Kontakt</a>
+      </div>
+    </nav>
+  </header>
 
-		<a href="https://github.com/Chrisi816"><img src="src/img/github-mark-white.png" class="githublogo" alt=""></a>
-	</section>
-	<section class="aboutme">
-		<h1 class="aboutmetext" id="aboutmetext">About me</h1>
-		<h1 class="infotextfacts" id="infotextfacts">Hello, I'm Christian Jedrzejczyk, a 17-year-old web and software
-			developer living near
-			Dortmund. I have expertise in various technologies, including:
-		</h1>
-		<h1 class="textskills" id="textskills">
-			- Frontend: HTML, CSS<br>
-			- Backend: Javascript (Node.js, Jquery), lua<br>
-			- Software: C#, Java<br>
-			- Databases: MongoDB, MySQL<br>
-		</h1>
-		<h1 class="infotextfacts2" id="infotextfacts2">Ich biete Dienstleistungen in den Bereichen Frontend-Entwicklung,
-			Backend-Entwicklung und Full Stack an
-			Entwicklung, App
-			Entwicklung, Responsive Design, Fehlerbehebung, Datenbankverwaltung ... </br> </br> Seit ich meine Reise
-			begonnen habe,
-			habe ich mit über 500 Kunden zusammengearbeitet, die mit meiner Arbeit zufrieden waren, und das alles schon
-			in so jungen Jahren. Ich bin hoch
-			motiviert, so viele Projekte wie möglich zu üb ernehmen, von der Fehlerbeseitigung bis zur Programmierung
-			kompletter neuer Anwendungen.
-			</br> </br> Deshalb bin ich die perfekte Person für Ihr nächstes Projekt!
-		</h1>
-	</section>
-	<section class="recentprojects">
-		<h1 class="aboutmetexttext3" id="aboutmetexttext3">My Projects</h1>
-		<img src="src/icons/talking.png" class="imgtalking" alt="">
-		<h1 class="description" id="description">Sorted from the most to the lowest efforts ones</h1>
-		<h1 class="description2" id="description2">Gerne kann ich ihnen jegliche Code Beispiele zuschicken auf Anfrage,
-			wenn der Kunde
-			damit einverstanden ist</h1>
-		<div class="container-recentwork">
-			<div class="container-recentwork2">
-				<div class="img-container"></div>
-				<img class="logoproject" src="src/icons/Banner_DCSize.gif" alt="">
-				<h1 class="porjectname">S-Service</h1>
-				<h1 class="projectinfos" id="prjectinfos">A development service provider specializing in
-					websites,
-					scripting, and applications. </br></br> - Over 800 Customers </br> - Over 80 Custom Orders </br> -
-					Trusted by 250000 Users </br> 3 Years of Experience </br> - Over 20 Products </h1>
-				<div class="container-coding">
-					<h1 class="codingelment">LUA, HTML, CSS, JS, C#, Twig</h1>
-				</div>
-				<a href="https://s-service.tebex.io">
-					<button class="button-send">
+  <main id="main">
+    <section class="hero section" id="home">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow" data-i18n="hero.eyebrow">Websites · Scripting · Applications</p>
+          <h1 data-i18n="hero.title">Ich entwickle digitale Produkte, die schnell, sauber und skalierbar sind.</h1>
+          <p class="hero-text" data-i18n="hero.text">Hi, ich bin Christian Jedrzejczyk – Web- und Softwareentwickler aus
+            der Nähe von Dortmund. Ich helfe Kunden dabei, Ideen in performante Websites, Scripts, Apps und
+            Full-Stack-Lösungen zu verwandeln.</p>
+          <div class="hero-actions">
+            <a class="button" href="mailto:jedchr08@gmail.com?subject=Projektanfrage%20%C3%BCber%20Portfolio"
+              data-i18n="hero.ctaPrimary">Projekt anfragen</a>
+            <a class="button button-ghost" href="#projects" data-i18n="hero.ctaSecondary">Projekte ansehen</a>
+          </div>
+          <div class="social-row" aria-label="Profile">
+            <a href="https://github.com/Chrisi816" target="_blank" rel="noreferrer">
+              <img src="assets/img/github-mark-white.png" alt="GitHub" /> GitHub
+            </a>
+            <a href="https://s-service.tebex.io" target="_blank" rel="noreferrer">S-Service Store</a>
+          </div>
+        </div>
 
-						<svg xmlns="http://www.w3.org/2000/svg" class="opensvg" viewBox="0 -960 960 960"
-							fill="#9914c186">
-							<path
-								d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z" />
-						</svg>
-						Open Website</button></a>
-			</div>
-			<div class="container-recentwork2">
-				<div class="img-container"></div>
-				<img class="logoproject2" src="src/icons/sevenliferp.png" alt="">
-				<h1 class="porjectname">SevenLife-Netzwerk</h1>
-				<h1 class="projectinfos" id="prjectinfos2">Kompletter FiveM Server, über 100 resourcen. Client sowie
-					Server seitig alles
-					selbst gemacht. Sowie Designt und Frontend</br></br> - Entwicklungsdauer: 1 Jahr </br></h1>
-				<div class="container-coding">
-					<h1 class="codingelment">LUA, HTML, CSS, JS</h1>
-				</div>
-				<a href="https://github.com/Chrisi816/SevenLife-Netzwerk">
-					<button class="button-send">
+        <div class="hero-visual reveal" aria-label="Developer Illustration">
+          <div class="orb orb-one"></div>
+          <div class="orb orb-two"></div>
+          <div class="code-card">
+            <div class="code-header"><span></span><span></span><span></span></div>
+            <pre><code>const project = {
+  design: "clean UI",
+  backend: "stable APIs",
+  delivery: "ready to ship"
+};</code></pre>
+          </div>
+          <img class="hero-image" src="assets/img/coding.png" alt="Code Illustration" />
+          <div class="experience-badge">
+            <strong>6+</strong>
+            <span data-i18n="hero.experience">Jahre Erfahrung</span>
+          </div>
+        </div>
+      </div>
 
-						<svg xmlns="http://www.w3.org/2000/svg" class="opensvg" viewBox="0 -960 960 960"
-							fill="#9914c186">
-							<path
-								d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z" />
-						</svg>
-						Open Github</button></a>
-			</div>
-			<div class="container-recentwork2">
-				<div class="img-container"></div>
-				<img class="logoproject2" src="src/icons/logo_transparent.png" alt="">
-				<h1 class="porjectname">Noxans-Anticheat</h1>
-				<h1 class="projectinfos" id="prjectinfos3">Ein client sowie server seitiges anticheat um personen davor
-					zu hindern sich
-					auf nicht konformer art und weise sich vorteile zu verschafen</br></br> - Over 15k Zeilen </br> -
-					Active on 30 Servers </br> 1 Years of existance </h1>
-				<div class="container-coding">
-					<h1 class="codingelment">LUA, HTML, CSS, JS</h1>
-				</div>
-				<a href="https://s-service.tebex.io">
-					<button class="button-send">
+      <div class="container stats-grid reveal" aria-label="Kennzahlen">
+        <div><strong>2.5k+</strong><span data-i18n="stats.customers">Kunden</span></div>
+        <div><strong>150+</strong><span data-i18n="stats.orders">Custom Projekte</span></div>
+        <div><strong>400k+</strong><span data-i18n="stats.users">Nutzer vertrauen Projekten</span></div>
+        <div><strong>30+</strong><span data-i18n="stats.products">Produkte</span></div>
+      </div>
+    </section>
 
-						<svg xmlns="http://www.w3.org/2000/svg" class="opensvg" viewBox="0 -960 960 960"
-							fill="#9914c186">
-							<path
-								d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z" />
-						</svg>
-						Open Github</button></a>
-			</div>
-			<div class="container-recentwork2">
-				<div class="img-container"></div>
-				<img class="logoproject" src="src/icons/azo_client.gif" alt="">
-				<h1 class="porjectname">Azo Client</h1>
-				<h1 class="projectinfos" id="prjectinfos4">Ein kompletter Minecraft launcher mit eigenen Einstellungen
-					und GUI's.
-					Entwicklung hat ungefährt 3 Monate gedauert für einen Customer </br></br> - Java </br>
-					- Ingame Käufe </br> -
-					Manipulation der Einstellungen und Add-On Kleidung</h1>
-				<div class="container-coding">
-					<h1 class="codingelment">Java</h1>
-				</div>
-				<a href="https://github.com/Chrisi816/-Minecraft-Azoniq-Launcher">
-					<button class="button-send">
+    <section class="section about-section" id="about">
+      <div class="container split-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="about.eyebrow">Über mich</p>
+          <h2 data-i18n="about.title">Vom Bugfix bis zur kompletten Plattform.</h2>
+        </div>
+        <div class="about-content reveal">
+          <p data-i18n="about.text1">Ich entwickle Frontends, Backends, FiveM-Ressourcen, Discord Bots, Minecraft
+            Launcher und individuelle Tools. Mein Fokus liegt auf klarer Kommunikation, sauberem Code und Designs, die
+            auf Desktop und Smartphone funktionieren.</p>
+          <p data-i18n="about.text2">Ich arbeite gerne pragmatisch: Erst verstehen wir das Ziel, dann entsteht ein
+            nutzbarer Prototyp und anschließend die stabile Version für echte Nutzer.</p>
+          <div class="tech-cloud" aria-label="Technologien">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>C#</span><span>Twig</span><span>Node.js</span><span>jQuery</span><span>Lua</span><span>Java</span><span>MongoDB</span><span>MySQL</span>
+            <span>AWS</span> <span>Vue</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
-						<svg xmlns="http://www.w3.org/2000/svg" class="opensvg" viewBox="0 -960 960 960"
-							fill="#9914c186">
-							<path
-								d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z" />
-						</svg>
-						Open Github</button></a>
-			</div>
-			<div class="container-recentwork2">
-				<div class="img-container"></div>
-				<img class="logoproject" src="src/icons/Banner_DCSize.gif" alt="">
-				<h1 class="porjectname">Custom Orders</h1>
-				<h1 class="projectinfos" id="prjectinfos5">Von Web applicationen bis zu Ingame HUD's war alles
-					dabei</br></br> - Over 50
-					Custom Orders </br> Gerne kann ich auf Anfrage diese Custom Aufträge zuschicken. 1 Ganzer Ordner ist
-					voll mit 50 resourcen </h1>
-				<div class="container-coding">
-					<h1 class="codingelment">LUA, HTML, CSS, JS, C#</h1>
-				</div>
-				<a href="https://s-service.tebex.io">
-					<button class="button-send">
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow" data-i18n="services.eyebrow">Leistungen</p>
+          <h2 data-i18n="services.title">Alles, was dein Projekt technisch braucht.</h2>
+          <p data-i18n="services.text">Von modernen Landingpages bis hin zu individuellen Scripts, APIs und
+            Datenbanklogik.</p>
+        </div>
+        <div class="card-grid service-grid">
+          <article class="card reveal">
+            <div class="icon-pill">01</div>
+            <h3 data-i18n="services.frontend.title">Frontend & UI</h3>
+            <p data-i18n="services.frontend.text">Responsive Websites, Interfaces, Dashboards und Animationen mit Fokus
+              auf Performance.</p>
+          </article>
+          <article class="card reveal">
+            <div class="icon-pill">02</div>
+            <h3 data-i18n="services.backend.title">Backend & APIs</h3>
+            <p data-i18n="services.backend.text">Node.js-Backends, Auth-Systeme, Datenbanken und saubere Schnittstellen.
+            </p>
+          </article>
+          <article class="card reveal">
+            <div class="icon-pill">03</div>
+            <h3 data-i18n="services.scripting.title">Scripting & Game Dev</h3>
+            <p data-i18n="services.scripting.text">Lua, FiveM-Ressourcen, Minecraft-Tools und individuelle
+              Ingame-Systeme.</p>
+          </article>
+          <article class="card reveal">
+            <div class="icon-pill">04</div>
+            <h3 data-i18n="services.support.title">Fixes & Optimierung</h3>
+            <p data-i18n="services.support.text">Bugfixes, Refactoring, Performance-Optimierung und Weiterentwicklung
+              bestehender Projekte.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-						<svg xmlns="http://www.w3.org/2000/svg" class="opensvg" viewBox="0 -960 960 960"
-							fill="#9914c186">
-							<path
-								d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z" />
-						</svg>
-						On Request</button></a>
-			</div>
-			<div class="container-recentwork2">
-				<div class="img-container"></div>
-				<img class="logoproject3" src="src/icons/discord-mark-white.png" alt="">
-				<h1 class="porjectname">Discord Bot's</h1>
-				<h1 class="projectinfos" id="prjectinfos6">Insgesamt über 5 Discord Bots erstellt mit Node.js und
-					discord.js teilweise mit
-					Panals</br> - Over
-					10 Servers </br> - Over 3k user </br></h1>
-				<div class="container-coding">
-					<h1 class="codingelment">HTML, CSS, JS</h1>
-				</div>
-				<a href="https://github.com/Chrisi816/Discord-Bot">
-					<button class="button-send">
+    <section class="section process-section">
+      <div class="container process-card reveal">
+        <div>
+          <p class="eyebrow" data-i18n="process.eyebrow">Ablauf</p>
+          <h2 data-i18n="process.title">Schnell von der Idee zur Lieferung.</h2>
+        </div>
+        <ol class="process-list">
+          <li><span>1</span><strong data-i18n="process.step1.title">Briefing</strong>
+            <p data-i18n="process.step1.text">Ziele, Funktionen und Budget klären.</p>
+          </li>
+          <li><span>2</span><strong data-i18n="process.step2.title">Konzept</strong>
+            <p data-i18n="process.step2.text">Struktur, UI und technische Lösung planen.</p>
+          </li>
+          <li><span>3</span><strong data-i18n="process.step3.title">Entwicklung</strong>
+            <p data-i18n="process.step3.text">Umsetzung mit regelmäßigen Updates.</p>
+          </li>
+          <li><span>4</span><strong data-i18n="process.step4.title">Launch</strong>
+            <p data-i18n="process.step4.text">Testing, Übergabe und Support.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
 
-						<svg xmlns="http://www.w3.org/2000/svg" class="opensvg" viewBox="0 -960 960 960"
-							fill="#9914c186">
-							<path
-								d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z" />
-						</svg>
-						Open Github</button></a>
-			</div>
-		</div>
-	</section>
-	<section class="feedback">
-		<h1 class="aboutmetexttext2" id="aboutmetexttext2">Customer Feedback (+350)</h1>
-		<div class="feedbackline">
-			<div class="feedback-container">
-				<img class="logoofperson" src="https://i.ibb.co/Tw6VGK3/man-avatar-icon-flat-vector.jpg" alt="">
-				<h1 class="customername">FlurixOgg</h1>
-				<h1 class="textsaid">
-					Bester Service , sehr gute Skripts, netter Support
-					Immer weiterzuempfehlen!!
-				</h1>
-			</div>
-			<div class="feedback-container"><img class="logoofperson"
-					src="https://i.ibb.co/Tw6VGK3/man-avatar-icon-flat-vector.jpg" alt="">
-				<h1 class="customername">noah605xx</h1>
-				<h1 class="textsaid">
-					Really, good service!
-				</h1>
-			</div>
-			<div class="feedback-container"><img class="logoofperson"
-					src="https://i.ibb.co/Tw6VGK3/man-avatar-icon-flat-vector.jpg" alt="">
-				<h1 class="customername">Myron C.</h1>
-				<h1 class="textsaid">
-					Ich kenne Christian schon seit einiger Zeit und immer wieder hat er mir bei meinen Projekten
-					geholfen...
-				</h1>
-			</div>
-			<div class="feedback-container"><img class="logoofperson"
-					src="https://i.ibb.co/Tw6VGK3/man-avatar-icon-flat-vector.jpg" alt="">
-				<h1 class="customername">Jakob B.</h1>
-				<h1 class="textsaid">
-					Super arbeit. Ehrlich schnell. Sehr motiviert auch bei schwierigeren Aufgaben, auch wenn man
-					Viel
-					rechnen muss
-				</h1>
-			</div>
-			<div class="feedback-container"><img class="logoofperson"
-					src="https://i.ibb.co/Tw6VGK3/man-avatar-icon-flat-vector.jpg" alt="">
-				<h1 class="customername">Patrick L.</h1>
-				<h1 class="textsaid">
-					Top. Hatte ein Minecraft Projekt indem Christian mir geholfen hat es auf die Beine zu
-					stellen
-				</h1>
-			</div>
-			<div class="feedback-container"><img class="logoofperson"
-					src="https://i.ibb.co/Tw6VGK3/man-avatar-icon-flat-vector.jpg" alt="">
-				<h1 class="customername">luekhang</h1>
-				<h1 class="textsaid">
-					Great responses in timely matter and affordable.
-				</h1>
-			</div>
-			<div class="feedback-container"><img class="logoofperson"
-					src="https://i.ibb.co/Tw6VGK3/man-avatar-icon-flat-vector.jpg" alt="">
-				<h1 class="customername">cimsefaja</h1>
-				<h1 class="textsaid">
-					Great script (FFA Menu) and support was very quick to respond
-				</h1>
-			</div>
-			<div class="feedback-container"><img class="logoofperson"
-					src="https://i.ibb.co/Tw6VGK3/man-avatar-icon-flat-vector.jpg" alt="">
-				<h1 class="customername">flayzcs</h1>
-				<h1 class="textsaid">
-					Nette Leute, nehmen sich Zeit und gehen auf die Wünsche des Kunden ein.
-				</h1>
-			</div>
-			<div class="feedback-container"><img class="logoofperson"
-					src="https://i.ibb.co/Tw6VGK3/man-avatar-icon-flat-vector.jpg" alt="">
-				<h1 class="customername">alex.lao</h1>
-				<h1 class="textsaid">
-					very fast and excellent work
-				</h1>
-			</div>
-			<div class="feedback-container"><img class="logoofperson"
-					src="https://i.ibb.co/Tw6VGK3/man-avatar-icon-flat-vector.jpg" alt="">
-				<h1 class="customername">deehunxho_</h1>
-				<h1 class="textsaid">
-					Very Responsive, Patient and Helpful 10/10.
-				</h1>
-			</div>
-			<div class="feedback-container"><img class="logoofperson"
-					src="https://i.ibb.co/Tw6VGK3/man-avatar-icon-flat-vector.jpg" alt="">
-				<h1 class="customername">farius</h1>
-				<h1 class="textsaid">
-					Schnell und zuverlässig wie immer
-				</h1>
-			</div>
-			<div class="feedback-container"><img class="logoofperson"
-					src="https://i.ibb.co/Tw6VGK3/man-avatar-icon-flat-vector.jpg" alt="">
-				<h1 class="customername">Kali</h1>
-				<h1 class="textsaid">
-					They helped me very well with my problem. Really professional and decent.
-				</h1>
-			</div>
-			<div class="feedback-container"><img class="logoofperson"
-					src="https://i.ibb.co/Tw6VGK3/man-avatar-icon-flat-vector.jpg" alt="">
-				<h1 class="customername">Zaffi84</h1>
-				<h1 class="textsaid">
-					Super scripts und perfekter Support bei Problemen
-				</h1>
-			</div>
-			<div class="feedback-container"><img class="logoofperson"
-					src="https://i.ibb.co/Tw6VGK3/man-avatar-icon-flat-vector.jpg" alt="">
-				<h1 class="customername">Hussein</h1>
-				<h1 class="textsaid">
-					Das Admin Menü ist sehr gut!
-				</h1>
-			</div>
-			<div class="feedback-container"><img class="logoofperson"
-					src="https://i.ibb.co/Tw6VGK3/man-avatar-icon-flat-vector.jpg" alt="">
-				<h1 class="customername">Unknown</h1>
-				<h1 class="textsaid">
-					Sehr guter Support und nehmen sich Zeit um auf den Kunden einzugehen!
-				</h1>
-			</div>
-			<div class="feedback-container"><img class="logoofperson"
-					src="https://i.ibb.co/Tw6VGK3/man-avatar-icon-flat-vector.jpg" alt="">
-				<h1 class="customername">Riel</h1>
-				<h1 class="textsaid">
-					I have never seen any scripts like This. This is amazing looking! and fantastic support!
-				</h1>
-			</div>
-			<div class="feedback-container"><img class="logoofperson"
-					src="https://i.ibb.co/Tw6VGK3/man-avatar-icon-flat-vector.jpg" alt="">
-				<h1 class="customername">Yugi</h1>
-				<h1 class="textsaid">
-					Klasse Support. Auch individuelle Anfragen top erledigt.
-				</h1>
-			</div>
-			<div class="feedback-container"><img class="logoofperson"
-					src="https://i.ibb.co/Tw6VGK3/man-avatar-icon-flat-vector.jpg" alt="">
-				<h1 class="customername">Nico.MFW</h1>
-				<h1 class="textsaid">
-					Machen sehr geile Events und haben sehr gute Scripts wo man auch wirklich sieht das sich
-					mühe
-					gegeben wurde
-				</h1>
-			</div>
-		</div>
-	</section>
-	<section>
-		<div class="footer">
-			<div class="navlistfooter">
-				<a style="user-select: none; border: none; cursor:default;">Copyright by @Chrisi_lua 2024 </a>
-			</div>
-		</div>
-	</section>
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow" data-i18n="projects.eyebrow">Ausgewählte Arbeiten</p>
+          <h2 data-i18n="projects.title">Projekte mit echter Nutzung.</h2>
+          <p data-i18n="projects.text">Ein Mix aus eigenen Produkten, Kundenprojekten, Game-Development und Tools.</p>
+        </div>
 
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <div class="project-media"><img src="assets/icons/Banner_DCSize.gif" alt="S-Service Banner" /></div>
+            <div class="project-body">
+              <h3>S-Service</h3>
+              <p data-i18n="project.sservice">Development Service Provider für Websites, Scripting und Applications mit
+                über 20 Produkten.</p>
+              <div class="tags"><span>Lua</span><span>HTML</span><span>CSS</span><span>JS</span><span>C#</span></div>
+              <a href="https://s-service.tebex.io" target="_blank" rel="noreferrer"
+                data-i18n="project.openWebsite">Website öffnen</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-media project-media-logo"><img src="assets/icons/sevenliferp.png"
+                alt="SevenLife Netzwerk Logo" /></div>
+            <div class="project-body">
+              <h3>SevenLife-Netzwerk</h3>
+              <p data-i18n="project.sevenlife">Kompletter FiveM-Server mit über 100 Ressourcen, inklusive Client-,
+                Server- und Frontend-Systemen.</p>
+              <div class="tags"><span>Lua</span><span>HTML</span><span>CSS</span><span>JS</span></div>
+              <a href="https://github.com/Chrisi816/SevenLife-Netzwerk" target="_blank" rel="noreferrer"
+                data-i18n="project.openGithub">GitHub öffnen</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-media project-media-logo"><img src="assets/icons/logo_transparent.png"
+                alt="Noxans Anticheat Logo" /></div>
+            <div class="project-body">
+              <h3>Noxans Anticheat</h3>
+              <p data-i18n="project.noxans">Client- und serverseitiges Anticheat-System mit mehr als 15k Zeilen Code und
+                aktiver Nutzung auf Servern.</p>
+              <div class="tags"><span>Lua</span><span>JS</span><span>Security</span></div>
+              <a href="https://s-service.tebex.io" target="_blank" rel="noreferrer" data-i18n="project.more">Mehr
+                erfahren</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-media"><img src="assets/icons/azo_client.gif" alt="Azo Client" /></div>
+            <div class="project-body">
+              <h3>Azo Client</h3>
+              <p data-i18n="project.azo">Minecraft Launcher mit eigenen Einstellungen, GUI-Systemen und
+                Add-on-Funktionen.</p>
+              <div class="tags"><span>Java</span><span>Launcher</span><span>UI</span></div>
+              <a href="https://github.com/Chrisi816/-Minecraft-Azoniq-Launcher" target="_blank" rel="noreferrer"
+                data-i18n="project.openGithub">GitHub öffnen</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-media project-media-pattern"><span>Custom Orders</span></div>
+            <div class="project-body">
+              <h3>Custom Orders</h3>
+              <p data-i18n="project.custom">Von Web-Applications bis zu Ingame-HUDs: individuelle Aufträge nach
+                Kundenanforderung.</p>
+              <div class="tags"><span>Full Stack</span><span>Scripts</span><span>UI</span></div>
+              <a href="mailto:jedchr08@gmail.com?subject=Custom%20Order" data-i18n="project.request">Anfragen</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-media project-media-logo"><img src="assets/icons/discord-mark-white.png"
+                alt="Discord Logo" /></div>
+            <div class="project-body">
+              <h3>Discord Bots</h3>
+              <p data-i18n="project.discord">Mehrere Discord Bots mit Node.js und discord.js, teils inklusive Panels und
+                Server-Tools.</p>
+              <div class="tags"><span>Node.js</span><span>discord.js</span><span>Panels</span></div>
+              <a href="https://github.com/Chrisi816/Discord-Bot" target="_blank" rel="noreferrer"
+                data-i18n="project.openGithub">GitHub öffnen</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reviews-section" id="reviews">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow" data-i18n="reviews.eyebrow">Kundenstimmen</p>
+          <h2 data-i18n="reviews.title">Feedback von echten Projekten.</h2>
+        </div>
+        <div class="review-track reveal" aria-label="Kundenrezensionen">
+          <article class="review-card"><strong>Roche S.</strong>
+            <p>„Gute Seite voll übersichtlich! Er hat mir geholfen mein Projekt auf die Beine zu stellen. Dafür bin ich
+              Dankbar!“</p>
+          </article>
+          <article class="review-card"><strong>FlurixOgg</strong>
+            <p>„Bester Service, sehr gute Scripts, netter Support. Immer weiterzuempfehlen!“</p>
+          </article>
+          <article class="review-card"><strong>noah605xx</strong>
+            <p>„Really good service!“</p>
+          </article>
+          <article class="review-card"><strong>Jakob B.</strong>
+            <p>„Super Arbeit. Ehrlich, schnell und sehr motiviert auch bei schwierigeren Aufgaben.“</p>
+          </article>
+          <article class="review-card"><strong>Patrick L.</strong>
+            <p>„Top. Christian hat mir geholfen, mein Minecraft Projekt auf die Beine zu stellen.“</p>
+          </article>
+          <article class="review-card"><strong>luekhang</strong>
+            <p>„Great responses in timely matter and affordable.“</p>
+          </article>
+          <article class="review-card"><strong>alex.lao</strong>
+            <p>„Very fast and excellent work.“</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-card reveal">
+        <div>
+          <p class="eyebrow" data-i18n="contact.eyebrow">Kontakt</p>
+          <h2 data-i18n="contact.title">Bereit für dein nächstes Projekt?</h2>
+          <p data-i18n="contact.text">Schick mir kurz, was du brauchst. Ich melde mich mit einer Einschätzung zu
+            Umsetzung, Aufwand und nächstem Schritt.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="button" href="mailto:jedchr08@gmail.com?subject=Neue%20Projektanfrage"
+            data-i18n="contact.email">E-Mail schreiben</a>
+          <a class="button button-ghost" href="https://github.com/Chrisi816" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span data-year></span> Christian Jedrzejczyk / S-Service</p>
+      <a href="#top" data-i18n="footer.backTop">Nach oben</a>
+    </div>
+  </footer>
+
+  <dialog class="status-dialog" data-status-dialog aria-labelledby="status-title">
+    <button class="dialog-close" type="button" data-close-status aria-label="Status schließen">×</button>
+    <div class="status-hero">
+      <img src="assets/img/skyline.png" alt="" />
+      <div>
+        <p class="eyebrow" data-i18n="status.eyebrow">Server Monitoring</p>
+        <h2 id="status-title" data-i18n="status.title">Projektstatus</h2>
+      </div>
+      <div class="uptime"><strong>99.99%</strong><span>Uptime</span></div>
+    </div>
+    <div class="status-list">
+      <div class="status-row"><strong>S-Service</strong><meter min="0" max="100" value="99"></meter><span
+          data-i18n="status.days10">letzter Incident: vor 10 Tagen</span></div>
+      <div class="status-row"><strong>S-Service Backend</strong><meter min="0" max="100" value="99"></meter><span
+          data-i18n="status.days13">letzter Incident: vor 13 Tagen</span></div>
+      <div class="status-row"><strong>Noxans Auth</strong><meter min="0" max="100" value="98"></meter><span
+          data-i18n="status.days2">letzter Incident: vor 2 Tagen</span></div>
+      <div class="status-row"><strong>Azo Client Auth</strong><meter min="0" max="100" value="98"></meter><span
+          data-i18n="status.days5">letzter Incident: vor 5 Tagen</span></div>
+    </div>
+  </dialog>
 </body>
-<script src="index.js"></script>
 
 </html>
