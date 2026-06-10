@@ -195,8 +195,8 @@ function translate(language) {
 	if (languageFlag) {
 		languageFlag.src =
 			language === "de"
-				? "assets/icons/icons8-england-48.png"
-				: "assets/icons/icons8-germany-48.png";
+				? "src/icons/icons8-england-48.png"
+				: "src/icons/icons8-germany-48.png";
 		languageFlag.alt = language === "de" ? "English" : "Deutsch";
 	}
 }
