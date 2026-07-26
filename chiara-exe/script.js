@@ -1,74 +1,132 @@
 const CONFIG = {
-  sitePassword: "liebe", // HIER das Passwort der Website ändern
-  relationshipStart: "2025-01-01T00:00:00", // Euer Beziehungsdatum
+  sitePassword: "schatzipupsimausi", // HIER das Passwort der Website ändern
+  relationshipStart: "2026-05-14T00:00:00", // Euer Beziehungsdatum
   secretCode: "chiara",
+
   loveReasons: [
     "Weil dein Lächeln selbst meine schlechtesten Tage besser macht.",
     "Weil ich bei dir komplett ich selbst sein kann.",
     "Weil du wunderschön bist – innen und außen.",
-    "Weil sich jeder normale Moment mit dir besonders anfühlt.",
-    "Weil du mich zum Lachen bringst, selbst wenn mir gar nicht danach ist.",
+    "Weil sich selbst ganz normale Momente mit dir besonders anfühlen.",
+    "Weil du mich zum Lachen bringst, selbst wenn mir eigentlich gar nicht danach ist.",
     "Weil ich mich bei dir zuhause fühle.",
-    "Weil ich mit dir noch tausend Erinnerungen sammeln möchte.",
+    "Weil ich mit dir noch tausend weitere Erinnerungen sammeln möchte.",
     "Weil deine Art einfach einzigartig ist.",
     "Weil du mein Lieblingsmensch bist.",
     "Weil ich dich jeden Tag ein kleines bisschen mehr liebe."
   ],
+
   memories: [
     {
-      chapter: "Kapitel 1",
-      date: "Unser erstes Date",
+      chapter: "Der Anfang",
+      date: "Unser allererstes Treffen",
+      title: "Mirco und die Beleidigungen",
+      text: "Zuerst habe ich dich aus Versehen Vanessa genannt. Beim nächsten Treffen habe ich dich dann auch noch komplett beleidigt – und trotzdem bist du zu mir gekommen. Irgendwie musste es wohl so sein. ❤️",
+      type: "image",
+      image: "https://i.ibb.co/2fZvYKz/IMG-1433.jpg"
+    },
+    {
+      chapter: "Das erste Interesse",
+      date: "Tuningmesse und Mercedes",
+      title: "Da wurde mein Interesse geweckt",
+      text: "Dann waren wir gemeinsam auf der Tuningmesse. Du meintest damals, dass du eigentlich nur wegen mir mitgekommen bist, während ich dich dort schon ein bisschen genauer ausgecheckt habe. Spätestens im Mercedes habe ich zum ersten Mal wirklich begriffen, dass zwischen uns vielleicht doch mehr sein könnte als nur Freundschaft.",
+      type: "image",
+      image: "https://i.ibb.co/7JVhLyjT/image.jpg"
+    },
+    {
+      chapter: "Pia und unser Anfang",
+      date: "Als alles seinen Lauf nahm",
       title: "Der Anfang von uns",
-      text: "Der Moment, ab dem alles ein bisschen schöner wurde. Hier kannst du später aufschreiben, wo ihr wart und was diesen Tag besonders gemacht hat.",
+      text: "Weißt du noch, wie alles angefangen hat? Fairerweise muss man sagen, dass Pia uns zusammengebracht hat. Ohne sie wären wir uns vielleicht nie so nahegekommen – dafür werde ich ihr immer dankbar sein.",
       type: "image",
-      image: "images/memory-1.svg"
+      image: "https://i.ibb.co/2fZvYKz/IMG-1433.jpg"
     },
     {
-      chapter: "Kapitel 2",
-      date: "Unser schönster Tag",
-      title: "Ein Tag für immer",
-      text: "Ein Tag, den ich sofort noch einmal erleben würde. Ersetze Text und Foto einfach durch eure echte Erinnerung.",
+      chapter: "Unser erstes inoffizielles Date",
+      date: "Factory Bottrop",
+      title: "Pia als drittes Rad",
+      text: "Ein Tag, den ich sofort noch einmal erleben würde. Zwar war Pia dabei, aber selbst der Kellner musste lachen, weil es am Ende eigentlich nur um dich und mich ging.",
       type: "image",
-      image: "images/memory-2.svg"
+      image: "https://i.ibb.co/93s4bhp8/IMG-1476.jpg"
     },
     {
-      chapter: "Kapitel 3",
-      date: "Unser lustigster Moment",
-      title: "Lachen bis der Bauch wehtut",
-      text: "Weil wir zusammen selbst über den größten Quatsch lachen können und genau das liebe ich an uns.",
+      chapter: "Unser erstes offizielles Date",
+      date: "Billard – trotz langer Wartezeit",
+      title: "Doch nicht unangenehm",
+      text: "Endlich hatten wir unser erstes richtiges Date ohne Pia. Anfangs dachte ich noch, dass es vielleicht unangenehm werden könnte – aber zwischen uns hat es von der ersten Minute an einfach gepasst.",
       type: "image",
-      image: "images/memory-3.svg"
+      image: "https://i.ibb.co/3mPtzwfP/IMG-1594.jpg"
     },
     {
-      chapter: "Kapitel 4",
-      date: "Heute",
-      title: "Unsere Geschichte geht weiter",
-      text: "Und das Beste daran: Das hier ist erst der Anfang. Noch so viele Seiten warten darauf, von uns gefüllt zu werden. ❤️",
+      chapter: "Topgolf mit Denise und Renarsch",
+      date: "Topgolf – natürlich habe ich gewonnen",
+      title: "Pärchen gegen Pärchen",
+      text: "An diesem Tag ist unser ikonisches Foto entstanden. Mit jedem weiteren gemeinsamen Moment habe ich mich ein kleines bisschen mehr in dich verliebt.",
       type: "image",
-      image: "images/memory-4.svg"
+      image: "https://i.ibb.co/TzhrdqT/4f40b7d7-434a-4090-aa8a-9bfdd6a926a8.jpg"
+    },
+    {
+      chapter: "Tetraeder Bottrop",
+      date: "Sonnenuntergang",
+      title: "Bloß nicht runterschmeißen",
+      text: "Wie zwei echte Sportskanonen sind wir nach oben geklettert. Dort haben wir gemeinsam den Sonnenuntergang und vor allem die Zeit miteinander genossen.",
+      type: "image",
+      image: "https://i.ibb.co/JFtvK7hR/IMG-1772.jpg"
+    },
+    {
+      chapter: "Die Sonnenuhr",
+      date: "Noch ein Sonnenuntergang",
+      title: "Inzwischen leider abgefackelt",
+      text: "Schon wieder waren wir gemeinsam unterwegs und haben den Sonnenuntergang genossen. Wie die Sonne dabei in deine Haare gefallen ist, sah einfach wunderschön aus.",
+      type: "image",
+      image: "https://i.ibb.co/hQD5R5b/IMG-1782.jpg"
+    },
+    {
+      chapter: "Die Niederlande",
+      date: "Unser gemeinsamer Urlaub",
+      title: "Das absolute Peak-Leben",
+      text: "Dieser Urlaub war eine unserer besten Ideen. Ich durfte dich noch viel besser kennenlernen, und danach waren wir endgültig unzertrennlich. ❤️",
+      type: "image",
+      image: "https://i.ibb.co/Xkd3xzNj/845-E4-CC4-C928-4-A17-A52-E-8-C3447193-C7-D.jpg"
+    },
+    {
+      chapter: "Erdbeeren sammeln",
+      date: "30 Grad und ganz viele Erdbeeren",
+      title: "Vier Kilogramm Erdbeeren",
+      text: "Auch dieses Jahr wollte ich wieder Erdbeeren pflücken. Dieses Mal habe ich es aber gemeinsam mit meiner absoluten Lieblingsperson gemacht – und genau das hat den Tag so besonders gemacht.",
+      type: "image",
+      image: "https://i.ibb.co/ZR0952hY/IMG-1845.jpg"
+    },
+    {
+      chapter: "Bis heute",
+      date: "Unsere gemeinsame Zeit",
+      title: "Alles, was noch vor uns liegt",
+      text: "Natürlich sind zwischen all diesen Momenten noch tausend weitere Dinge passiert. Es wären viel zu viele, um sie alle aufzuschreiben – aber genau das zeigt, wie viele Erinnerungen wir bereits miteinander gesammelt haben. Und ich weiß, dass noch unendlich viele dazukommen werden.",
+      type: "image",
+      image: "https://i.ibb.co/Y4qxMx31/IMG-2005.jpg"
+    },
+    {
+      chapter: "Ich liebe dich",
+      date: "Heute, morgen und für immer",
+      title: "Mein Lieblingsmensch",
+      text: "Ich liebe dich. Du bist mein Lieblingsmensch, mein schönster Gedanke und der Mensch, den ich für immer an meiner Seite haben möchte. ❤️",
+      type: "image",
+      image: ""
     }
-
-    // VIDEO-BEISPIEL FÜR DAS TAGEBUCH:
-    // ,{
-    //   chapter: "Kapitel 5",
-    //   date: "Unser Urlaub",
-    //   title: "Ein Moment als Video",
-    //   text: "Dieses Video erinnert mich immer an diesen wunderschönen Tag.",
-    //   type: "video",
-    //   video: "videos/urlaub.mp4",
-    //   poster: "images/urlaub-vorschaubild.jpg"
-    // }
   ],
-  gallery: [
-    { type: "image", image: "images/gallery-1.svg", caption: "Mein Lieblingsfoto von uns" },
-    { type: "image", image: "images/gallery-2.svg", caption: "Ein unvergesslicher Moment" },
-    { type: "image", image: "images/gallery-3.svg", caption: "Du und dein wunderschönes Lächeln" },
-    { type: "image", image: "images/gallery-4.svg", caption: "Zusammen ist alles schöner" },
-    { type: "image", image: "images/gallery-5.svg", caption: "Eine Erinnerung fürs Leben" },
-    { type: "image", image: "images/gallery-6.svg", caption: "Mein Lieblingsmensch ❤️" }
 
-    // VIDEO-BEISPIEL FÜR DIE GALERIE:
-    // ,{
+  // Hier kannst du zusätzliche Bilder oder Videos ergänzen.
+  // Alle Bilder aus dem Tagebuch werden unten automatisch zur Galerie hinzugefügt.
+  gallery: [
+    // BILD-BEISPIEL:
+    // {
+    //   type: "image",
+    //   image: "https://example.com/unser-foto.jpg",
+    //   caption: "Eine weitere wunderschöne Erinnerung ❤️"
+    // },
+
+    // VIDEO-BEISPIEL:
+    // {
     //   type: "video",
     //   video: "videos/unser-video.mp4",
     //   poster: "images/video-vorschaubild.jpg",
@@ -76,6 +134,21 @@ const CONFIG = {
     // }
   ]
 };
+
+// Übernimmt automatisch alle Tagebuchbilder in die Galerie.
+// Leere und doppelte Bildlinks werden dabei übersprungen.
+const diaryGalleryItems = CONFIG.memories
+  .filter(memory => memory.type === "image" && memory.image)
+  .filter((memory, index, memories) =>
+    memories.findIndex(item => item.image === memory.image) === index
+  )
+  .map(memory => ({
+    type: "image",
+    image: memory.image,
+    caption: `${memory.chapter} – ${memory.title}`
+  }));
+
+CONFIG.gallery = [...diaryGalleryItems, ...CONFIG.gallery];
 
 const bootMessages = ["System wird gestartet …", "Lade schönstes Mädchen der Welt …", "Suche nach meinem Lieblingsmenschen …", "Chiara erfolgreich gefunden ❤️", "Alle Liebesmodule bereit."];
 
