@@ -20,8 +20,8 @@ const CONFIG = {
       date: "Unser erstes Date",
       title: "Der Anfang von uns",
       text: "Der Moment, ab dem alles ein bisschen schöner wurde. Hier kannst du später aufschreiben, wo ihr wart und was diesen Tag besonders gemacht hat.",
-      type: "video",
-      image: "images/kiki.mov"
+      type: "image",
+      image: "images/memory-1.svg"
     },
     {
       chapter: "Kapitel 2",
@@ -202,6 +202,7 @@ function openModal(type) {
   activeMemoryIndex = 0;
   modalContent.innerHTML = modalTemplates[type]();
   modalWindow.classList.toggle("journal-modal", type === "memories");
+  modal.classList.toggle("journal-open", type === "memories");
   modal.classList.remove("hidden");
   document.body.classList.add("modal-open");
   bindModalEvents(type);
@@ -212,6 +213,7 @@ function closeModal() {
   pauseAllVideos(modal);
   modal.classList.add("hidden");
   modalWindow.classList.remove("journal-modal");
+  modal.classList.remove("journal-open");
   document.body.classList.remove("modal-open");
   activeModalType = null;
 }
