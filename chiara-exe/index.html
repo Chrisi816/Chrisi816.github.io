@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#12070a" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <title>Chiara.exe ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="password-screen" class="password-screen">
+    <div class="password-card">
+      <div class="boot-logo">C<span>❤</span></div>
+      <span class="password-eyebrow">Privater Bereich</span>
+      <h1>Nur für Chiara ❤️</h1>
+      <p>Diese kleine Welt ist passwortgeschützt.</p>
+      <form id="password-form" class="password-form">
+        <input id="password-input" class="password-input" type="password" placeholder="Passwort eingeben" autocomplete="current-password" autofocus />
+        <button class="start-btn" type="submit">Öffnen</button>
+      </form>
+      <div id="password-error" class="password-error" aria-live="polite"></div>
+    </div>
+  </div>
+
+  <div id="boot-screen" class="boot-screen hidden">
+    <div class="boot-card">
+      <div class="boot-logo">C<span>❤</span></div>
+      <h1>Chiara.exe</h1>
+      <div id="boot-text" class="boot-text">System wird gestartet …</div>
+      <div class="progress"><div id="progress-bar" class="progress-bar"></div></div>
+      <button id="start-btn" class="start-btn hidden">Für Chiara öffnen ❤️</button>
+    </div>
+  </div>
+
+  <main id="desktop" class="desktop hidden">
+    <header class="topbar glass">
+      <div>
+        <span class="tiny">Willkommen in</span>
+        <h1>Chiara.exe <span>❤️</span></h1>
+      </div>
+      <div class="topbar-right">
+        <div id="relationship-counter" class="counter">Lade unsere Zeit …</div>
+        <button id="heart-rain-btn" class="icon-btn" aria-label="Herzregen">💗</button>
+      </div>
+    </header>
+
+    <section class="hero glass">
+      <div class="hero-copy">
+        <span class="eyebrow">Für mein Lieblingsmädchen</span>
+        <h2>Du bist mein schönster Zufall.</h2>
+        <p>Diese kleine Seite ist nur für dich – voll mit Erinnerungen, Gründen, warum ich dich liebe, und allem, was ich dir manchmal gar nicht oft genug sage.</p>
+        <button class="primary-btn" data-open="love-letter">Liebesbrief öffnen</button>
+      </div>
+      <div class="hero-heart" aria-hidden="true">
+        <div class="heart-glow"></div>
+        <div class="big-heart">❤</div>
+      </div>
+    </section>
+
+    <section class="apps-grid">
+      <button class="app-card glass" data-open="reasons"><span class="app-icon">💌</span><strong>Warum ich dich liebe</strong><small>Zufällige Gründe nur für dich</small></button>
+      <button class="app-card glass" data-open="memories"><span class="app-icon">📖</span><strong>Unser Tagebuch</strong><small>Erinnerungen mit Fotos &amp; Videos</small></button>
+      <button class="app-card glass" data-open="gallery"><span class="app-icon">🖼️</span><strong>Unsere Galerie</strong><small>Unsere Fotos und Videos</small></button>
+      <button class="app-card glass" data-open="future"><span class="app-icon">✨</span><strong>Unsere Zukunft</strong><small>Worauf ich mich mit dir freue</small></button>
+      <button class="app-card glass" data-open="hug"><span class="app-icon">🫂</span><strong>Notfall-Kuscheln</strong><small>Für schwere Tage</small></button>
+      <button class="app-card glass" data-open="secret"><span class="app-icon">🔒</span><strong>Geheime Nachricht</strong><small>Nur mit dem richtigen Code</small></button>
+      <button class="app-card glass" data-open="quiz"><span class="app-icon">🎮</span><strong>Mini-Quiz</strong><small>Wie gut kennst du uns?</small></button>
+    </section>
+
+    <footer>Mit ganz viel Liebe gecodet von Chrisi ❤️</footer>
+  </main>
+
+  <div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-window glass">
+      <button class="close-btn" data-close aria-label="Schließen">×</button>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <div id="lightbox" class="lightbox hidden" role="dialog" aria-modal="true">
+    <button id="lightbox-close" class="lightbox-close" aria-label="Bild schließen">×</button>
+    <img id="lightbox-image" src="" alt="Vergrößerte gemeinsame Erinnerung" />
+    <div id="lightbox-caption" class="lightbox-caption"></div>
+  </div>
+
+  <div id="toast" class="toast hidden"></div>
+  <div id="heart-layer" class="heart-layer" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
